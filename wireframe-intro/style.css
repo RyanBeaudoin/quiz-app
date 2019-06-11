@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  background: url(https://i.pinimg.com/originals/69/b9/0e/69b90ed4e4087e02faaaccf33a843dfb.jpg) fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center
+}
+
+img.fam-pic {
+  height: 300px;
+  width: auto;
+  margin-top: 35px;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+input[type=button] {
+  background-color: #C64C65;
+  border: solid 1px black;
+  height: 50px;
+  width: 25%;
+}

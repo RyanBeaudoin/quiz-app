@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+div.questionResults {
+  position: absolute;
+  top:0;
+  right:0;
+  padding-right: 20px;
+}
+
+div.scoreResults {
+  position: absolute;
+  top:0;
+  right:0;
+  padding-right: 25px;
+  padding-top: 30px;
+}
+
+body {
+  
+  background: url(https://i.pinimg.com/originals/69/b9/0e/69b90ed4e4087e02faaaccf33a843dfb.jpg) fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center
+}
+
+main {
+  margin-top: 30px;
+}
+
+.results {
+  border: solid 1px black;
+  height: 400px;
+  width: 40%;
+  margin: auto;
+  background-color: #68917c70;
+}
+
+img {
+  margin: 25px;
+  height: 250px;
+  width: auto;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+section p {
+  padding-left: 10px;
+}
+
+input[name=next] {
+  margin-top: 40px;
+  background-color: #C64C65;
+  border: solid 1px black;
+  height: 50px;
+  width: 25%;
+}
