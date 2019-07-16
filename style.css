@@ -55,7 +55,7 @@ form img:first-of-type {
 .questionContainer {
   background-color: #ADCBC5;
   border: solid .5px black;
-  height: 100px;
+  height: 150px;
   width: 300px;
   margin: 5px auto 20px;
   display: flex;
@@ -63,6 +63,7 @@ form img:first-of-type {
   justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 50%;
 }
 
 /*.answerContainer {
