@@ -15,9 +15,10 @@ body {
 
 #startImg {
   opacity: 0.8;
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
   border-radius: 10px;
+  margin: 15px auto 55px;
 }
 
 #endImg {
@@ -56,7 +57,7 @@ form img:first-of-type {
   border: solid .5px black;
   height: 100px;
   width: 300px;
-  margin: 20px auto 20px;
+  margin: 5px auto 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,36 +65,50 @@ form img:first-of-type {
   padding-right: 10px;
 }
 
+/*.answerContainer {
+  display: inline-block;
+}*/
+
 input[type="button"]:nth-child(1) {
   background-color: #C64C65;
   border: solid .5px black;
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   white-space: normal;
+  border-radius: 100%;
+  float: left;
 }
 
 input[type="button"]:nth-child(2) {
   background-color: #ED848F;
   border: solid .5px black;
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   white-space: normal;
+  border-radius: 100%;
+  float: right;
 }
 
 input[type="button"]:nth-child(3) {
   background-color: #E8CED6;
   border: solid .5px black;
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   white-space: normal;
+  border-radius: 100%;
+  float: left;
+  margin-top: 15px;
 }
 
 input[type="button"]:nth-child(4) {
   background-color: #9BBBA8;
   border: solid .5px black;
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   white-space: normal;
+  border-radius: 100%;
+  float: right;
+  margin-top: 15px;
 }
 
 .align_heading {
@@ -101,6 +116,11 @@ input[type="button"]:nth-child(4) {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.align_heading h1 {
+  font-size: 40px;
 }
 
 fieldset {
@@ -115,10 +135,8 @@ fieldset {
 
 .answerExplain {
   margin-top: 10px;
-  width: 500px;
 }
 
 .feebackExplaination {
   margin-top: 15px;
-  width: 300px;
 }
