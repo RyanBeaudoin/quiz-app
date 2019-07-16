@@ -116,6 +116,7 @@ input[type="button"]:nth-child(4) {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: -10px;
 }
 
 .align_heading h1 {
