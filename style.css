@@ -2,25 +2,123 @@
   box-sizing: border-box;
 }
 
-body { 
-  background: url(https://i.pinimg.com/originals/69/b9/0e/69b90ed4e4087e02faaaccf33a843dfb.jpg) fixed; 
+html {
+  background: url(https://i.pinimg.com/originals/69/b9/0e/69b90ed4e4087e02faaaccf33a843dfb.jpg) fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center
 }
 
-img.introPic {
-  height: 300px;
-  width: auto;
-  margin-top: 35px;
+body {
+  text-align: center;
+}
+
+#startImg {
   opacity: 0.8;
+  width: 400px;
+  height: 300px;
   border-radius: 10px;
 }
 
-input[type=button] {
+#endImg {
+  opacity: 0.8;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+form img:first-of-type {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.startQuizBtn, .restartQuizBtn {
   background-color: #C64C65;
   border: solid 1px black;
   height: 50px;
-  width: 25%;
+  width: 200px;
+}
+
+.startQuizBtn {
+  margin-top: 20px;
+}
+
+.nextQuestion {
+  background-color: #C64C65;
+  border: solid 1px black;
+  height: 50px;
+  width: 300px;
+}
+
+.questionContainer {
+  background-color: #ADCBC5;
+  border: solid .5px black;
+  height: 100px;
+  width: 300px;
+  margin: 20px auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input[type="button"]:nth-child(1) {
+  background-color: #C64C65;
+  border: solid .5px black;
+  height: 100px;
+  width: 200px;
+  white-space: normal;
+}
+
+input[type="button"]:nth-child(2) {
+  background-color: #ED848F;
+  border: solid .5px black;
+  height: 100px;
+  width: 200px;
+  white-space: normal;
+}
+
+input[type="button"]:nth-child(3) {
+  background-color: #E8CED6;
+  border: solid .5px black;
+  height: 100px;
+  width: 200px;
+  white-space: normal;
+}
+
+input[type="button"]:nth-child(4) {
+  background-color: #9BBBA8;
+  border: solid .5px black;
+  height: 100px;
+  width: 200px;
+  white-space: normal;
+}
+
+.align_heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+fieldset {
+  border: 0;
+  padding-top: 10px;
+}
+
+.answerResult {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.answerExplain {
+  margin-top: 10px;
+  width: 500px;
+}
+
+.feebackExplaination {
+  margin-top: 15px;
+  width: 300px;
 }
