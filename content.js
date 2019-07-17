@@ -33,7 +33,7 @@ const STORE = [
     explanation: 'This is one of the biggest changes! Sleeping in? Not anymore. Get used to the idea of waking up in the middle of the night to change a diaper or provide assurance that there are no monsters in the closet!'
   },
   {  
-    text: 'What kind of fun activities would you do with your newborn baby?',
+    text: 'What fun activities would you do with your newborn baby?',
     imgSrc: 'https://image.freepik.com/free-vector/cartoon-baby-sleeping_61878-356.jpg',
     imgAlt: 'sleeping children image',
     choices: ['Amusement parks, the zoo...the fun stuff', 'Nothing. Babies only is sleep, eat, and poop.', 'Road trip!!!', 'Can a baby go into a bar if they aren’t drinking?'],
