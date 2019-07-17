@@ -110,7 +110,7 @@ function generateEndPage () {
   $('.current_score').hide();
   $('.question_index').hide();
   return `
-    <h2>You got ${score} of ${total} correct!</h2>
+    <h2>You got ${score} out of ${total} correct!</h2>
     <img id="endImg" src="${IMAGES[IMAGES.length - 1].imgSrc}" alt="${IMAGES[IMAGES.length - 1].imgAlt}" /><br>
     <div class="feebackExplaination">
     ${feedbackNotification}</div>
