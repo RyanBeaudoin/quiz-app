@@ -101,7 +101,7 @@ function correctFeedback () {
     feedbackNotification = `Being a parent might be in your future, but probably not right now!`;
   }
   else {
-    feedbackNotification = `You know what, I think you are ready for parenthood, or maybe you already are?!?`;
+    feedbackNotification = `You know what, I think you are ready to be a parent, or maybe you already are?!?`;
   }
 }
 

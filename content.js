@@ -27,13 +27,13 @@ const STORE = [
   {
     text: 'How much do you enjoy sleeping?',
     choices: ['I sleep until it’s time to go to the club.', 'It’s what I look forward to.', 'I don\'t sleep!', 'Can I just sleep all day?'],
-    answer: 'I only sleep when there is nothing else to do.',
+    answer: 'I don\'t sleep!',
     explanation: 'This is one of the biggest changes! Sleeping in? Not anymore. Get used to the idea of waking up in the middle of the night to change a diaper or provide assurance that there are no monsters in the closet!'
   },
   {  
     text: 'What fun activities would you do with your newborn baby?',
-    choices: ['Amusement parks, the zoo...the fun stuff', 'Nothing. Babies only is sleep, eat, and poop.', 'Road trip!!!', 'Can a baby go into a bar if they aren’t drinking?'],
-    answer: 'Hibernate. All babies do is sleep, eat, and poop.',
+    choices: ['Amusement parks, the zoo...the fun stuff', 'Nothing. Babies only eat, sleep, and poop.', 'Road trip!!!', 'Can a baby go into a bar if they aren’t drinking?'],
+    answer: 'Nothing. Babies only eat, sleep, and poop.',
     explanation: 'Newborns sleep a lot and drink milk constantly. Getting into a groove takes time, but it won\'t last long, so get ready to chase them, read books, and play with cool toys!'
   },
   {
@@ -51,8 +51,8 @@ const STORE = [
   {  
     text: 'How well do you handle stress?',
     choices: ['Calm, cool, and collected!', 'I tend to curl into fetal position.', 'I don\'t', 'I avoid stressful situation at all cost.'],
-    answer: 'Calm, cool, and collected, baby!',
-    explanation: 'Being a parent is not always smiles, giggles, and cuddles. It can be very stressful, and everyone handles stress differently. The important thing is to role with the punches and do your best!'
+    answer: 'Calm, cool, and collected!',
+    explanation: 'Being a parent is not always smiles, giggles, and cuddles. It can be very stressful, and everyone handles stress differently. The important thing is to roll with the punches and do your best!'
   },
   {
     text: 'Does screaming bother you?',
