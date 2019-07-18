@@ -116,7 +116,7 @@ function generateEndPage () {
     ${feedbackNotification}</div>
     <br>
     <button type="button" name="restart" class="restartQuizBtn">
-      <span>Try Again?</span>
+      <p>Try Again?</p>
     </button>`;
 }
 
