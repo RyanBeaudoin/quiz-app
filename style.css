@@ -15,10 +15,10 @@ body {
 
 #startImg {
   opacity: 0.8;
-  width: 350px;
+  width: 340px;
   height: 250px;
   border-radius: 10px;
-  margin: 15px auto 55px;
+  margin: 25px auto 40px;
 }
 
 #endImg {
@@ -26,6 +26,7 @@ body {
   width: 300px;
   height: 200px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 form img:first-of-type {
@@ -45,6 +46,10 @@ form img:first-of-type {
   margin-top: 20px;
 }
 
+.restartQuizBtn {
+  margin-top: 15px;
+}
+
 .nextQuestion {
   background-color: #C64C65;
   border: solid 1px black;
@@ -57,7 +62,7 @@ form img:first-of-type {
   border: solid .5px black;
   height: 100px;
   width: 200px;
-  margin: 5px auto -10px;
+  margin: 20px auto -10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,15 +71,14 @@ form img:first-of-type {
   border-radius: 50%;
 }
 
-/*.answerContainer {
-  display: inline-block;
-}*/
-
 .answerContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  max-height: 200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  max-width: 300px;
   padding: 25px;
 }
 
@@ -94,6 +98,8 @@ input[type="button"]:nth-child(2) {
   border: solid .5px black;
   height: 100px;
   width: 100px;
+  margin-left: 10px;
+  margin-top: -10px;
   white-space: normal;
   border-radius: 100%;
 }
@@ -112,29 +118,24 @@ input[type="button"]:nth-child(4) {
   border: solid .5px black;
   height: 100px;
   width: 100px;
+  margin-left: 10px;
   white-space: normal;
   border-radius: 100%;
 }
 
-.align_heading {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .align_heading h1 {
   font-size: 26px;
+  margin-top: 25px;
 }
 
 fieldset {
   border: 0;
-  padding-top: 10px;
 }
 
 .answerResult {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
 .answerExplain {
@@ -149,8 +150,7 @@ h2 {
   margin-top: -10px;
 }
 
-@media only screen 
-and (min-device-width :768px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
 #startImg {
   opacity: 0.8;
   width: 550px;
@@ -158,20 +158,22 @@ and (min-device-width :768px) {
   border-radius: 10px;
   margin: 0 auto 55px;
 }
+
+#endImg {
+  opacity: 0.8;
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 .align_heading h1 {
   font-size: 36px;
   margin: 0 auto;
   width: auto;
   display: block;
-  margin-top: 50px;
-}
-
-.align_heading {
-  margin-top: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 25px;
 }
 
 .startQuizBtn, .restartQuizBtn {
@@ -183,21 +185,22 @@ and (min-device-width :768px) {
 
 .current_score {
   position: absolute;
-  top: 55px;
-  right: 23px;
+  top: 30px;
+  right: 30px;
 }
 
 .question_index {
   position: absolute;
-  right: 20px;
-  top: 25px;
+  top: 50px;
+  right: 27px;
 }
 
 .answerContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-height: 200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  max-width: 500px;
   padding: 25px;
 }
 
@@ -206,6 +209,7 @@ input[type="button"]:nth-child(1) {
   border: solid .5px black;
   height: 125px;
   min-width: 45%;
+  font-size: 14px;
   white-space: normal;
   border-radius: 100%;
   margin-bottom: 30px;
@@ -216,8 +220,10 @@ input[type="button"]:nth-child(2) {
   border: solid .5px black;
   height: 125px;
   min-width: 45%;
+  font-size: 14px;
   white-space: normal;
   border-radius: 100%;
+  margin-top: -29px;
 }
 
 input[type="button"]:nth-child(3) {
@@ -225,6 +231,7 @@ input[type="button"]:nth-child(3) {
   border: solid .5px black;
   height: 125px;
   min-width: 45%;
+  font-size: 14px;
   white-space: normal;
   border-radius: 100%;
 }
@@ -234,6 +241,7 @@ input[type="button"]:nth-child(4) {
   border: solid .5px black;
   height: 125px;
   min-width: 45%;
+  font-size: 14px;
   white-space: normal;
   border-radius: 100%;
 }
@@ -241,20 +249,22 @@ input[type="button"]:nth-child(4) {
 .questionContainer {
   background-color: #ADCBC5;
   border: solid .5px black;
-  height: 100px;
+  font-size: 18px;
+  height: 125px;
   width: 300px;
-  margin: 0 auto 45px;
+  margin: 5px auto 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 50%;
 }
 
 .answerResult {
   font-size: 30px;
   font-weight: 500;
+  margin-top: -5px;
 }
 
 form img:first-of-type {
@@ -269,4 +279,127 @@ form img:first-of-type {
   font-size: 25px;
   width: 85%;
 }
+
+.feebackExplaination {
+  margin: 5px auto 0;
+  font-size: 20px;
+  width: 400px;
+}
+
+button {
+  font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  #startImg {
+    opacity: 0.8;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 15px auto 25px;
+  }
+
+  .answerContainer {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    max-width: 500px;
+    padding: 25px;
+  }
+
+  input[type="button"]:nth-child(1):hover, input[type="button"]:nth-child(1):focus, input[type="button"]:nth-child(2):hover, input[type="button"]:nth-child(2):focus, input[type="button"]:nth-child(3):hover, input[type="button"]:nth-child(3):focus, input[type="button"]:nth-child(4):hover, input[type="button"]:nth-child(4):focus {
+    background-color:rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="button"] {
+    border: solid .5px black;
+    height: 125px;
+    min-width: 45%;
+    font-size: 14px;
+    white-space: normal;
+    border-radius: 100%;
+  }
+  
+  input[type="button"]:nth-child(1) {
+    background-color: #C64C65;
+    margin-bottom: 25px;
+  }
+  
+  input[type="button"]:nth-child(2) {
+    background-color: #ED848F;
+    margin-left: 30px;
+    margin-top: -29px;
+  }
+  
+  input[type="button"]:nth-child(3) {
+    background-color: #E8CED6;
+  }
+  
+  input[type="button"]:nth-child(4) {
+    background-color: #9BBBA8;
+    margin-left: 30px;
+  }
+  
+  .questionContainer {
+    background-color: #ADCBC5;
+    border: solid .5px black;
+    font-size: 18px;
+    height: 125px;
+    width: 275px;
+    margin: 0 auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50%;
+  }
+
+  button:hover, button:focus {
+    background: #E8CED6;
+  }
+
+  form img:first-of-type {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px auto 20px;
+  }
+
+  .answerExplain {
+    margin: 10px auto 15px;
+    font-size: 22px;
+    width: 50%;
+  }
+
+  .current_score {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  
+  .question_index {
+    position: absolute;
+    top: 40px;
+    right: 28px;
+  }
+
+  .align_heading h1 {
+    font-size: 36px;
+    margin: 40px auto;
+    width: auto;
+    display: block;
+  }
+
+  .answerResult {
+    margin-top: -10px;
+  }
+
+  .feebackExplaination {
+    margin: 0 auto -10px;
+    font-size: 20px;
+    width: 400px;
+  }
 }
